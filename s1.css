@@ -1,0 +1,119 @@
+
+body{
+    line-height: 1.5;
+    font-family:'poppins',sans-serif;
+}
+*{padding :0;
+    margin:0;
+   }
+   .wrapper{
+       background-image:url("claudio-schwarz-UX-mCYFC1cA-unsplash.jpg") no-repeat;
+       background-size:cover;
+       height: 100vh;
+   }
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+
+}
+.navbar ul li{
+    list-style:none;
+    margin:0 9px; 
+    display:inline-block;
+    line-height: 70px;
+} 
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:red;
+    border-radius: 2px;
+}
+.wrapper.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select:none;
+}
+.center h1{
+    color:blue;
+    font-size:70px;
+    font-weight: bold;
+    width:900px;
+    text-align: middle;
+}
+.center h2{
+    color:black;
+    font-size:70px;
+    font-weight: bold;
+    width:900px;
+    text-align: center;
+}
+.center.buttons{
+    margin:35px 280px;
+}
+.buttons button{
+    height:50px;
+    width:150px;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+    background:red;
+    border:1px solid black;
+    border-radius: 25px;
+}
+.container{
+    max-width:1170px;
+    background-color:beige;
+    margin:auto;
+}
+.footer{
+    background-color: blueviolet;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+ul{
+    list-style:none;
+}
+.footer{
+    background-color: blueviolet;
+    padding:50px 0;
+}
+
+.footer-col{
+    width:15%;
+    padding:0 15px;
+}
+.footer-col,.footer-col,.footer-col{
+    width: 200px;;
+    float: left;
+    margin:10px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    colour:purple;
+    text-transform:capitalize;
+    margin-bottom:20px;
+    font-weight: 300;
+    position: relative;
+    
+
+}
+.footer-col h4::before{
+    content:'' ;
+    position:absolute ;
+    left:0 ;
+    bottom: -10px;
+    background-color:brown ;
+    height:2px ;
+    box-sizing: border-box;
+    width:50px ;
+}
